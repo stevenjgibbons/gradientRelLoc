@@ -1,5 +1,9 @@
 # gradientRelLoc
-A set of programs for calculating the relative location of seismic events using differential time measurements.
+A set of programs for calculating the relative location of seismic events using differential time measurements.  
+
+This code is available on Zenodo with the DOI https://zenodo.org/doi/10.5281/zenodo.12680277  
+
+<a href="https://zenodo.org/doi/10.5281/zenodo.12680277"><img src="https://zenodo.org/badge/825336703.svg" alt="DOI"></a>  
 
 Compile by running the *compile_all.sh* script.  
 
