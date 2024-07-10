@@ -13,8 +13,8 @@ BINDIR=  $(TOPDIR)/bin
 # PLEASE CHECK ALL THE ABOVE LINES FOR YOUR SYSTEM ----
 #
 PROGNAME1= gradientRelLoc
-PROGNAME2= oneEventPairVectorSolve
-PROGNAME3= oneSlovecPairVectorSolve
+PROGNAME2= testdran1n
+PROGNAME3= mc_gradientRelLoc
 PROGNAME4= fixedSlovecsEventSolve
 PROGNAME5= fixedEventsSlovecsSolve
 PROGNAME6= checkcircvc
