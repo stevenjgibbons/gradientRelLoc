@@ -6,6 +6,7 @@ ALLSOURCECODE=  \
 	grdrls.f \
 	irwmps.f \
 	isleap.f \
+	mcgrrl.f \
 	md2doy.f \
 	mdpvun.f \
 	sach2e.f \
