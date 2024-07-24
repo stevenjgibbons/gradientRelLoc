@@ -5,6 +5,9 @@ This code is available on Zenodo with the DOI https://zenodo.org/doi/10.5281/zen
 
 <a href="https://zenodo.org/doi/10.5281/zenodo.12680277"><img src="https://zenodo.org/badge/825336703.svg" alt="DOI"></a>  
 
+[![SQAaaS badge shields.io](https://img.shields.io/badge/sqaaas%20software-silver-lightgrey)](https://api.eu.badgr.io/public/assertions/WYpfzBaHTOCew0H1QWAdpA "SQAaaS silver badge achieved")  
+[![SQAaaS badge](https://github.com/EOSC-synergy/SQAaaS/raw/master/badges/badges_150x116/badge_software_silver.png)](https://api.eu.badgr.io/public/assertions/WYpfzBaHTOCew0H1QWAdpA "SQAaaS silver badge achieved")  
+
 Compile by running the *compile_all.sh* script.  
 
 ```
