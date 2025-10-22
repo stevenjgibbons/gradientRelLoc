@@ -18,6 +18,7 @@ PROGNAME3= mc_gradientRelLoc
 PROGNAME4= fixedSlovecsEventSolve
 PROGNAME5= fixedEventsSlovecsSolve
 PROGNAME6= checkcircvc
+PROGNAME7= shift_gradientRelLoc
 #
 ALLSOURCECODE=  \
    $(PROGNAME1).f   \
@@ -25,7 +26,8 @@ ALLSOURCECODE=  \
    $(PROGNAME3).f   \
    $(PROGNAME4).f   \
    $(PROGNAME5).f   \
-   $(PROGNAME6).f  
+   $(PROGNAME6).f   \
+   $(PROGNAME7).f  
 #
 SOURCES= \
         $(ALLSOURCECODE)
@@ -37,6 +39,7 @@ EXEFILE3= $(BINDIR)/$(PROGNAME3)
 EXEFILE4= $(BINDIR)/$(PROGNAME4)
 EXEFILE5= $(BINDIR)/$(PROGNAME5)
 EXEFILE6= $(BINDIR)/$(PROGNAME6)
+EXEFILE7= $(BINDIR)/$(PROGNAME7)
 FORTRAN= gfortran
 #
 LIBDIR=  .
@@ -62,3 +65,5 @@ $(PROGNAME5):	$(PROGNAME5).f $(LIBS)
 	$(FORTRAN) -o $(EXEFILE5) $(PROGNAME5).f $(LIBS) $(OPTIM)
 $(PROGNAME6):	$(PROGNAME6).f $(LIBS)
 	$(FORTRAN) -o $(EXEFILE6) $(PROGNAME6).f $(LIBS) $(OPTIM)
+$(PROGNAME7):	$(PROGNAME7).f $(LIBS)
+	$(FORTRAN) -o $(EXEFILE7) $(PROGNAME7).f $(LIBS) $(OPTIM)
