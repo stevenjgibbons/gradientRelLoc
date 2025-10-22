@@ -4,6 +4,7 @@ ALLSOURCECODE=  \
 	dmedvl.f \
 	dran1n.f \
 	grdrls.f \
+	shgrls.f \
 	irwmps.f \
 	isleap.f \
 	mcgrrl.f \
