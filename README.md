@@ -27,3 +27,8 @@ cp ${statphasefile} gradientRelLoc.input
 cat ${CCtimesfile} >> gradientRelLoc.input
 ./bin/gradientRelLoc ${NSP} ${event1} ${event2} < gradientRelLoc.input > out.txt
 ``` 
+If you publish using this code, I kindly ask you to cite the following paper: 
+**Relative location of seismic events using broadband frequency-wavenumber analysis: Application to the North Korean Nuclear Test Site**  
+Steven J. Gibbons, *RAS Techniques and Instruments*, rzag023, https://doi.org/10.1093/rasti/rzag023
+
+![Screenshot from the above paper https://doi.org/10.1093/rasti/rzag023](FKRELLOC_Promo_Image_Screenshot.png)
